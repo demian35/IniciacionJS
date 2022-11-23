@@ -20,3 +20,12 @@ numero3=8;
 alert(numero) //alert manda la variable en el navegador como notificacion
 alert(numero2)
 alert(numero3)
+
+//manipulacion de las variables por medio de operaciones basicas imprimiendo el resultado 
+//en alertas
+alert(numero+numero3)
+alert(numero3-numero2)
+
+//permitir que el usuario ingrese una entrada por medio de prompt
+let nombre=prompt("Felicidades por decidir estudiar JS , ingrese su nombre porfavor")
+alert("Welcome to the universe of JS: " + nombre)
