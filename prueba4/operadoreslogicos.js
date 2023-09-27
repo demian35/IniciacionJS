@@ -29,8 +29,20 @@ let num1=23;
 let num2=43;
 let num3=56;
 let num4=67;
+let num5=78;
+let num6=63;
 
 let resulatado= (num2 < num1) && (num3 != num4);
 
+
+
 document.write("<br>");
 document.write(resulatado);
+console.log(resulatado);
+
+let resultado2=(!(num1 < num6) && (num3 === num5)) && ((num4!=num2) || (num6> num1));
+
+document.write("<br>");
+document.write(resultado2);
+console.log(resultado2);
+
